@@ -1,0 +1,42 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      '40a02c1f181010c4c5ea397d3ca20b85' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":1,"source":0,"property_preprocess":0,"name":"sample.TinymceWrapperMIGX","description":"TinyMCE for MIGX textareas. Thanks to Bruno17. Please remove the prefix \\"sample.\\" before use and to preserve this custom chunk when you upgrade TinymceWrapper. This chunk DOES NOT accept a custom suffix.","editor_type":0,"category":0,"cache_type":0,"snippet":"tinymce.init({\\n  mode: \\"exact\\",\\n  elements: \\"tv[[+tv_id]]\\",\\n  [[$TinymceWrapperCommonCode]]\\n  plugins: \\"autoresize,preview,paste,contextmenu,image,wordcount,fullscreen,code,link,charmap,searchreplace,textpattern,emoticons,insertdatetime\\",\\n  paste_word_valid_elements: \\"a,div,b,strong,i,em,h1,h2,h3,p,blockquote,ol,ul,pre\\",\\n  valid_elements: \\"iframe[*],object[*],audio[*],-span[!title|!class<test test2],a[href|target|class|rel|title|data-ajax|data-iframe],strong,b,-p[class<text-align-left?text-align-center?text-align-right],br,-h1[class|data-ajax|data-iframe],-h2[class|data-ajax|data-iframe],-h3[class|data-ajax|data-iframe],-img[!src|!alt|!class=round_img|data-ajax|data-iframe],em,-blockquote,pre[class],-ol,-ul,-li,-code[class]\\",\\n  valid_children: \\"-li[ul],-li[ol],-li[div],-strong[*],-em[*],-h1[*],-h2[*],-h3[*],-a[strong|em|h1|h2|h3|p|div],blockquote[p|ol|ul],pre,div\\",\\n  resize: true,\\n  autoresize_min_height: 100,\\n  autoresize_max_height: 400,\\n  toolbar: \\"newdocument | fullscreen preview | undo redo | blockquote | bold | italic | aligncenter | bullist numlist | link unlink | image | styleselect | charmap emoticons insertdatetime | searchreplace\\",\\n  contextmenu: \\"removeformat | link | image | code\\",\\n  setup: function(editor) {\\n    editor.on(\'mouseleave\', function(evt) {\\n      tinyMCE.activeEditor.save();\\n    });\\n  }\\n});","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"tinymce.init({\\n  mode: \\"exact\\",\\n  elements: \\"tv[[+tv_id]]\\",\\n  [[$TinymceWrapperCommonCode]]\\n  plugins: \\"autoresize,preview,paste,contextmenu,image,wordcount,fullscreen,code,link,charmap,searchreplace,textpattern,emoticons,insertdatetime\\",\\n  paste_word_valid_elements: \\"a,div,b,strong,i,em,h1,h2,h3,p,blockquote,ol,ul,pre\\",\\n  valid_elements: \\"iframe[*],object[*],audio[*],-span[!title|!class<test test2],a[href|target|class|rel|title|data-ajax|data-iframe],strong,b,-p[class<text-align-left?text-align-center?text-align-right],br,-h1[class|data-ajax|data-iframe],-h2[class|data-ajax|data-iframe],-h3[class|data-ajax|data-iframe],-img[!src|!alt|!class=round_img|data-ajax|data-iframe],em,-blockquote,pre[class],-ol,-ul,-li,-code[class]\\",\\n  valid_children: \\"-li[ul],-li[ol],-li[div],-strong[*],-em[*],-h1[*],-h2[*],-h3[*],-a[strong|em|h1|h2|h3|p|div],blockquote[p|ol|ul],pre,div\\",\\n  resize: true,\\n  autoresize_min_height: 100,\\n  autoresize_max_height: 400,\\n  toolbar: \\"newdocument | fullscreen preview | undo redo | blockquote | bold | italic | aligncenter | bullist numlist | link unlink | image | styleselect | charmap emoticons insertdatetime | searchreplace\\",\\n  contextmenu: \\"removeformat | link | image | code\\",\\n  setup: function(editor) {\\n    editor.on(\'mouseleave\', function(evt) {\\n      tinyMCE.activeEditor.save();\\n    });\\n  }\\n});"}',
+        'guid' => '4f9c62776771697e46aacb3d8b3e45d2',
+        'native_key' => 1,
+        'signature' => '7a6fa2500f34e8e33c5c3d55c553577f',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'tinymcewrapper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'da6f0f65bf864d6bd6e1ecb6f8c5e9a2',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'f90a27257d04999d3600e15d01ae4d7c',
+  'native_key' => 10,
+  'object' => '{"id":10,"parent":0,"category":"3rdPartyChunks","rank":0}',
+);

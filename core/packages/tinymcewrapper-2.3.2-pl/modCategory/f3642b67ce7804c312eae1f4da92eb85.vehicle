@@ -1,0 +1,17 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => true,
+  'namespace' => 'tinymcewrapper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '6819f0aea0d96751dbd9659dd7136620',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'f3642b67ce7804c312eae1f4da92eb85',
+  'native_key' => 2,
+  'object' => '{"id":2,"parent":0,"category":"TinyCustomBrowsers","rank":0}',
+);

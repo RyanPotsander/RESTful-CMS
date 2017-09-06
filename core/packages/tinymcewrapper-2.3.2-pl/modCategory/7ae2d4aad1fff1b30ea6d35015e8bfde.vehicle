@@ -1,0 +1,42 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      '61c96cac68b4291b41d34e4568730b05' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":1,"source":0,"property_preprocess":0,"name":"roxyConfJson","description":"This is the only config file for Roxy Fileman. Enjoy. The errors are still being work out.","editor_type":0,"category":0,"cache_type":0,"snippet":"{\\n  \\"MODX\\": \\"initialize\\",\\n  \\"FILES_ROOT\\": \\"\\",\\n  \\"RETURN_URL_PREFIX\\": \\"\\",\\n  \\"SESSION_PATH_KEY\\": \\"\\",\\n  \\"THUMBS_VIEW_WIDTH\\": \\"140\\",\\n  \\"THUMBS_VIEW_HEIGHT\\": \\"120\\",\\n  \\"PREVIEW_THUMB_WIDTH\\": \\"100\\",\\n  \\"PREVIEW_THUMB_HEIGHT\\": \\"100\\",\\n  \\"MAX_IMAGE_WIDTH\\": \\"1000\\",\\n  \\"MAX_IMAGE_HEIGHT\\": \\"1000\\",\\n  \\"INTEGRATION\\": \\"tinymce4\\",\\n  \\"DIRLIST\\": \\"php\\/dirtree.php\\",\\n  \\"CREATEDIR\\": \\"php\\/createdir.php\\",\\n  \\"DELETEDIR\\": \\"php\\/deletedir.php\\",\\n  \\"MOVEDIR\\": \\"php\\/movedir.php\\",\\n  \\"COPYDIR\\": \\"php\\/copydir.php\\",\\n  \\"RENAMEDIR\\": \\"php\\/renamedir.php\\",\\n  \\"FILESLIST\\": \\"php\\/fileslist.php\\",\\n  \\"UPLOAD\\": \\"php\\/upload.php\\",\\n  \\"DOWNLOAD\\": \\"php\\/download.php\\",\\n  \\"DOWNLOADDIR\\": \\"php\\/downloaddir.php\\",\\n  \\"DELETEFILE\\": \\"php\\/deletefile.php\\",\\n  \\"MOVEFILE\\": \\"php\\/movefile.php\\",\\n  \\"COPYFILE\\": \\"php\\/copyfile.php\\",\\n  \\"RENAMEFILE\\": \\"php\\/renamefile.php\\",\\n  \\"GENERATETHUMB\\": \\"php\\/thumb.php\\",\\n  \\"DEFAULTVIEW\\": \\"list\\",\\n  \\"FORBIDDEN_UPLOADS\\": \\"zip js jsp jsb mhtml mht xhtml xht php phtml php3 php4 php5 phps shtml jhtml pl sh py cgi exe application gadget hta cpl msc jar vb jse ws wsf wsc wsh ps1 ps2 psc1 psc2 msh msh1 msh2 inf reg scf msp scr dll msi vbs bat com pif cmd vxd cpl htpasswd htaccess\\",\\n  \\"ALLOWED_UPLOADS\\": \\"\\",\\n  \\"FILEPERMISSIONS\\": \\"0644\\",\\n  \\"DIRPERMISSIONS\\": \\"0755\\",\\n  \\"LANG\\": \\"auto\\",\\n  \\"DATEFORMAT\\": \\"dd\\/MM\\/yyyy HH:mm\\",\\n  \\"OPEN_LAST_DIR\\": \\"yes\\"\\n}","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"{\\n  \\"MODX\\": \\"initialize\\",\\n  \\"FILES_ROOT\\": \\"\\",\\n  \\"RETURN_URL_PREFIX\\": \\"\\",\\n  \\"SESSION_PATH_KEY\\": \\"\\",\\n  \\"THUMBS_VIEW_WIDTH\\": \\"140\\",\\n  \\"THUMBS_VIEW_HEIGHT\\": \\"120\\",\\n  \\"PREVIEW_THUMB_WIDTH\\": \\"100\\",\\n  \\"PREVIEW_THUMB_HEIGHT\\": \\"100\\",\\n  \\"MAX_IMAGE_WIDTH\\": \\"1000\\",\\n  \\"MAX_IMAGE_HEIGHT\\": \\"1000\\",\\n  \\"INTEGRATION\\": \\"tinymce4\\",\\n  \\"DIRLIST\\": \\"php\\/dirtree.php\\",\\n  \\"CREATEDIR\\": \\"php\\/createdir.php\\",\\n  \\"DELETEDIR\\": \\"php\\/deletedir.php\\",\\n  \\"MOVEDIR\\": \\"php\\/movedir.php\\",\\n  \\"COPYDIR\\": \\"php\\/copydir.php\\",\\n  \\"RENAMEDIR\\": \\"php\\/renamedir.php\\",\\n  \\"FILESLIST\\": \\"php\\/fileslist.php\\",\\n  \\"UPLOAD\\": \\"php\\/upload.php\\",\\n  \\"DOWNLOAD\\": \\"php\\/download.php\\",\\n  \\"DOWNLOADDIR\\": \\"php\\/downloaddir.php\\",\\n  \\"DELETEFILE\\": \\"php\\/deletefile.php\\",\\n  \\"MOVEFILE\\": \\"php\\/movefile.php\\",\\n  \\"COPYFILE\\": \\"php\\/copyfile.php\\",\\n  \\"RENAMEFILE\\": \\"php\\/renamefile.php\\",\\n  \\"GENERATETHUMB\\": \\"php\\/thumb.php\\",\\n  \\"DEFAULTVIEW\\": \\"list\\",\\n  \\"FORBIDDEN_UPLOADS\\": \\"zip js jsp jsb mhtml mht xhtml xht php phtml php3 php4 php5 phps shtml jhtml pl sh py cgi exe application gadget hta cpl msc jar vb jse ws wsf wsc wsh ps1 ps2 psc1 psc2 msh msh1 msh2 inf reg scf msp scr dll msi vbs bat com pif cmd vxd cpl htpasswd htaccess\\",\\n  \\"ALLOWED_UPLOADS\\": \\"\\",\\n  \\"FILEPERMISSIONS\\": \\"0644\\",\\n  \\"DIRPERMISSIONS\\": \\"0755\\",\\n  \\"LANG\\": \\"auto\\",\\n  \\"DATEFORMAT\\": \\"dd\\/MM\\/yyyy HH:mm\\",\\n  \\"OPEN_LAST_DIR\\": \\"yes\\"\\n}"}',
+        'guid' => 'fb622e271e184cef5b46a1a0c80d8b91',
+        'native_key' => 1,
+        'signature' => '193fa98a404ea42b81b30b22750ea852',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'tinymcewrapper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '924ee72015c8ed619d78ae0e9a4641e0',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '7ae2d4aad1fff1b30ea6d35015e8bfde',
+  'native_key' => 5,
+  'object' => '{"id":5,"parent":0,"category":"RoxyFileman","rank":0}',
+);

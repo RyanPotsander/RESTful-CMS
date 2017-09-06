@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'bigbrother',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '471902a52a4a66ef2dd22fdc4f1e025e',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'e90c7ba5eb1a66e1f53f18841964d6df',
+  'native_key' => 'bigbrother.show_visits_on_dashboard',
+  'object' => '{"key":"bigbrother.show_visits_on_dashboard","value":1,"xtype":"combo-boolean","namespace":"bigbrother","area":"Google Analytics for MODx Revolution","editedon":null}',
+);

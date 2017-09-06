@@ -1,0 +1,126 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      '0be836e2eb24d65043bf69f11a600784' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":1,"source":0,"property_preprocess":0,"name":"NatureAlbum_myGallery","description":"This is a sample album of the finest natural scenes","editor_type":0,"category":0,"cache_type":0,"snippet":"[{\\"Location\\": \\"assets\\/components\\/tinymcewrapper\\/gallery\\/stockImages\\/nature\\/&autoCreateThumb=1&justJSON=1&options=w=178,h=117,zc=t\\"}]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[{\\"Location\\": \\"assets\\/components\\/tinymcewrapper\\/gallery\\/stockImages\\/nature\\/&autoCreateThumb=1&justJSON=1&options=w=178,h=117,zc=t\\"}]"}',
+        'guid' => '6e14e79f910a227e1c7aa867d9924975',
+        'native_key' => 1,
+        'signature' => 'c22a40a9645afc7be34daed9dde71d23',
+      ),
+      'bce7e7e75906af2fa5924857d96a22dd' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":2,"source":0,"property_preprocess":0,"name":"NatureAlbum_rowTpl","description":"Sample tpl for frontend output of gallery items. Use MIGX\' getImageList or anything you like","editor_type":0,"category":0,"cache_type":0,"snippet":"<li data-index=\\"[[+index]]\\" id=\'[[+rowCls]][[+idx]]\' class=\'[[+rowCls]]\' data-tag=\\"[[+tag]]\\"><a class=\'[[+linkCls]]\' title=\\"[[+name:stripString=`.png`]]\\" href=\'[[+url]]\'><img src=\'[[+src]]\' alt=\'[[+name:stripString=`.png`]]\' data-desc=\'[[+desc]]\' class=\'[[+imgCls]]\' data-name=\'[[+name]]\' data-tag=\\"[[+tag]]\\">[[+name:stripString=`.png`]]<\\/a><\\/li>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<li data-index=\\"[[+index]]\\" id=\'[[+rowCls]][[+idx]]\' class=\'[[+rowCls]]\' data-tag=\\"[[+tag]]\\"><a class=\'[[+linkCls]]\' title=\\"[[+name:stripString=`.png`]]\\" href=\'[[+url]]\'><img src=\'[[+src]]\' alt=\'[[+name:stripString=`.png`]]\' data-desc=\'[[+desc]]\' class=\'[[+imgCls]]\' data-name=\'[[+name]]\' data-tag=\\"[[+tag]]\\">[[+name:stripString=`.png`]]<\\/a><\\/li>"}',
+        'guid' => 'f9a9cd98f05756cab2c45dce59f7427c',
+        'native_key' => 2,
+        'signature' => '5ac932fea05b9eaccc215bc629b35319',
+      ),
+      'dafad0ef8e8accf6189d48005ec16d3d' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":3,"source":0,"property_preprocess":0,"name":"NatureAlbum_rowTpl_bxslider","description":"Sample bxslider tpl for frontend output of gallery items. Use MIGX\' getImageList or anything you like","editor_type":0,"category":0,"cache_type":0,"snippet":"<li data-index=\\"[[+index]]\\" id=\'[[+rowCls]][[+idx]]\' class=\'[[+rowCls]]\' data-tag=\\"[[+tag]]\\">\\n  <img src=\\"[[+url]]\\" title=\\"[[+desc]] [[+tag:isnotempty=`([[+tag]])`]]\\" \\/>\\n<\\/li>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<li data-index=\\"[[+index]]\\" id=\'[[+rowCls]][[+idx]]\' class=\'[[+rowCls]]\' data-tag=\\"[[+tag]]\\">\\n  <img src=\\"[[+url]]\\" title=\\"[[+desc]] [[+tag:isnotempty=`([[+tag]])`]]\\" \\/>\\n<\\/li>"}',
+        'guid' => '0efdae6232483cc4c38b43b5637b5820',
+        'native_key' => 3,
+        'signature' => '2218148e72875e46770ad80d0893f840',
+      ),
+      'da1613cb0c9a9254ced750a4113cea44' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":4,"source":0,"property_preprocess":0,"name":"sample_Gallery_BxSlider","description":"This is a sample album of the finest natural scenes","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"twGalleryJson\\">\\n  <ul class=\\"bxslider\\">\\n    [[!getImageList? \\n    &o-ffset=`1`\\n    &sort=`[{\\"sortby\\":\\"index\\",\\"sortdir\\":\\"DESC\\",\\"sortmode\\":\\"numeric\\"},{\\"sortby\\":\\"name\\",\\"sortdir\\":\\"ASC\\"}]`\\n    &tvname=`TinyJSONGalleryTV`\\n    &where =`{\\"hidden:=\\":\\"0\\"}`\\n    &tpl=`NatureAlbum_rowTpl_bxslider`\\n    &imgCls=`pic` &rowCls=`magic`\\n    &linkCls=`linked`]]\\n  <\\/ul>\\n<\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"twGalleryJson\\">\\n  <ul class=\\"bxslider\\">\\n    [[!getImageList? \\n    &o-ffset=`1`\\n    &sort=`[{\\"sortby\\":\\"index\\",\\"sortdir\\":\\"DESC\\",\\"sortmode\\":\\"numeric\\"},{\\"sortby\\":\\"name\\",\\"sortdir\\":\\"ASC\\"}]`\\n    &tvname=`TinyJSONGalleryTV`\\n    &where =`{\\"hidden:=\\":\\"0\\"}`\\n    &tpl=`NatureAlbum_rowTpl_bxslider`\\n    &imgCls=`pic` &rowCls=`magic`\\n    &linkCls=`linked`]]\\n  <\\/ul>\\n<\\/div>"}',
+        'guid' => 'd5a9d7cccb87eecbd46f78c5d8f3414d',
+        'native_key' => 4,
+        'signature' => '28a7ea90d94a3d3267a16bfaf89b5ca2',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      '00fbebaedd03217bea7a2099a5114cb3' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":1,"source":0,"property_preprocess":0,"name":"TinyJSONGalleryOutput","description":"Snippet to use for frontend presentation. Manipulate JSON code in all ways possible. Highly extensible. Better still use MIGX ultra powerful getImageList ... Enjoy! ","editor_type":0,"category":0,"cache_type":0,"snippet":"$galleryChunkOrJson = json_decode($galleryChunkOrJson, true);\\n$output = \'\';\\n$tpl = $modx->getOption(\'tpl\', $scriptProperties);\\n$i = 0;\\n$isFirst = true;\\nforeach ($galleryChunkOrJson as $gallery) {\\n  if ($isFirst) {\\n    $isFirst = false;\\n\\tcontinue;\\n  }\\n  if($gallery[\'hidden\'] == 1){\\n  continue;\\n  }\\n  $gallery[\'rowCls\'] = $rowCls;\\n  $gallery[\'linkCls\'] = $linkCls;\\n  $gallery[\'imgCls\'] = $imgCls;\\n  $gallery[\'idx\'] = $i++;\\n  $output.= $modx->getChunk($tpl, $gallery);\\n}\\nreturn $output;","locked":0,"properties":"a:0:{}","moduleguid":"","static":0,"static_file":"","content":"$galleryChunkOrJson = json_decode($galleryChunkOrJson, true);\\n$output = \'\';\\n$tpl = $modx->getOption(\'tpl\', $scriptProperties);\\n$i = 0;\\n$isFirst = true;\\nforeach ($galleryChunkOrJson as $gallery) {\\n  if ($isFirst) {\\n    $isFirst = false;\\n\\tcontinue;\\n  }\\n  if($gallery[\'hidden\'] == 1){\\n  continue;\\n  }\\n  $gallery[\'rowCls\'] = $rowCls;\\n  $gallery[\'linkCls\'] = $linkCls;\\n  $gallery[\'imgCls\'] = $imgCls;\\n  $gallery[\'idx\'] = $i++;\\n  $output.= $modx->getChunk($tpl, $gallery);\\n}\\nreturn $output;"}',
+        'guid' => '634917681becebf2727c5930d68afcaf',
+        'native_key' => 1,
+        'signature' => '24fdb680e84178b0719831de3333df24',
+      ),
+      'b94e1e33ab643042cf50385ffbbb1609' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":2,"source":0,"property_preprocess":0,"name":"TinyJSONGalleryScanner","description":"Auto-creation of thumb folder and thumbnails. Or use your own thumbs. Auto-creation of JSON code, or create your own. Enjoy!","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/*\\nTinyJSON Gallery Scanner Snippet for TinymceWrapper\\nhttp:\\/\\/www.leofec.com\\/modx-revolution\\/\\n-donshakespeare in the MODx forum\\nCopyright 2015\\n*\\/\\n$autoCreateThumb = $modx->getOption(\\"autoCreateThumb\\", $scriptProperties);\\n$justJSON = $modx->getOption(\\"justJSON\\", $scriptProperties);\\n$options = $modx->getOption(\\"options\\", $scriptProperties);\\n$partialOp = explode(\',\', $options);\\n$optionsArray = array();\\narray_walk($partialOp, function($val,$key) use(&$optionsArray){\\n  list($key, $value) = explode(\'=\', $val);\\n  $optionsArray[$key] = $value;\\n});\\n$options = $optionsArray;\\n\\/\\/get inputedPath plus base, whether user has autoCreateThumb on or not\\n$inputedFullPath = MODX_BASE_PATH . $modx->getOption(\\"inputedPath\\", $scriptProperties);\\n\\/\\/full url to full image\\n$largeUrl = MODX_BASE_URL . $modx->getOption(\\"inputedPath\\", $scriptProperties);\\n\\/\\/full path to thumb image if autoCreateThumb is on\\n$thumbPath = MODX_BASE_PATH . $modx->getOption(\\"inputedPath\\", $scriptProperties) . \\"thumb\\/\\";\\n\\/\\/full url to full image if autoCreateThumb is off, and user has own thumbs(must be child of parent folder :) )\\n$thumbParentUrl = dirname($largeUrl) . \\"\\/\\";\\n$thumbUrl = $thumbParentUrl . \\"thumb\\/\\";\\n$thumbInfo = \'\';\\necho \'<html><head><script>parent.loadingThrobber(0)<\\/script><\\/head><body style=\\"word-break: break-all;font-size: 14px;\\">\';\\nif ($autoCreateThumb == 1 && $options !== 0) {\\n  $thumbParentUrl = $largeUrl;\\n  $thumbUrl = $largeUrl . \\"thumb\\/\\";\\n  if ($justJSON == 0) {\\n    $thumbInfo = \'<br><b>THUMBNAILS<\\/b> <i>have been regenerated in thumb folder<\\/i>\';\\n  }\\n}\\n\\nif (file_exists($inputedFullPath)) {\\n  if ($autoCreateThumb && $justJSON == 0) {\\n    if (!file_exists($thumbPath)) {\\n      mkdir($thumbPath, 0777, true);\\n    }\\n    $checkResizer = MODX_CORE_PATH . \'components\\/resizer\\/model\\/\';\\n    if (file_exists($checkResizer)) {\\n      $modx->loadClass(\'Resizer\', MODX_CORE_PATH . \'components\\/resizer\\/model\\/\', true, true);\\n      $resizer = new Resizer($modx);\\n      $resizer->debug = true;\\n    }\\n    if(!$resizer){\\n      $thumbInfo = \'<br><b><a href=\\"https:\\/\\/modx.com\\/extras\\/package\\/resizer\\" target=\\"_blank\\">MODX Resizer<\\/a><\\/b> <i> is needed to create thumbnails<br>&justJSON was set to 0 - but no thumbs was created, only JSON<\\/i>\';\\n    }\\n  }\\n  $images = glob($inputedFullPath . \\"*.{jpg,png,gif}\\", GLOB_BRACE);\\n  if ($images) {\\n    $comma = \'\';\\n    $output = \\"<b>SCANNING:  <\\/b><i>\\" . $inputedFullPath . \\"<\\/i><br><br><div spellcheck=\'false\' contenteditable=\'true\' style=\'border:2px dotted red; height: 200px !important;font-size: 12px; overflow: auto;overflow-x: hidden\'>[\\";\\n    $output.= \'<b>{\\"Location\\": \\"\' . $modx->getOption(\\"inputedPath\\", $scriptProperties) . \'&autoCreateThumb=\'.$autoCreateThumb.\'&justJSON=\'.$justJSON.\'&options=\'.$modx->getOption(\\"options\\", $scriptProperties).\'\\"},<\\/b>\';\\n    $index = 0;\\n    foreach ($images as $image) {\\n      $index ++;\\n      $timeStamp = filemtime($image);\\n      $image = pathinfo($image);\\n      $file = $image[\\"filename\\"];\\n      $ext = $image[\\"extension\\"];\\n      $fileExt = $file . \\".\\" . $ext;\\n      $thumbSrc = $thumbUrl . $fileExt;\\n      $thumbParentUrlFname = $thumbParentUrl . $fileExt;\\n      if ($justJSON == 0 && $autoCreateThumb == 1 && $options !== 0) {\\n        if($resizer){\\n          $resizer->processImage($inputedFullPath . $fileExt, $thumbPath . $fileExt, $options);\\n        }\\n      }\\n      $cleanfile = preg_replace(\'\\/[^A-Za-z0-9\\\\-]\\/\', \' \', $file);\\n      $output.= $comma . \'{\\"name\\":\\"\' . $file.\'.\'.$ext . \'\\",\\"src\\":\\"\' . $thumbSrc . \'\\",\\"url\\":\\"\' . $thumbParentUrlFname . \'\\",\\"hidden\\":\\"0\\",\\"desc\\":\\"\' . $cleanfile . \'\\",\\"index\\":\\"\' . $index . \'\\",\\"time\\":\\"\' . $timeStamp . \'\\",\\"tag\\":\\"\\",\\"lerror\\":\\"0\\"}\';\\n      $comma = \',\';\\n    }\\n    $output.= \\"]<\\/div><br><b>COPY CODE ABOVE<\\/b> <i>and paste over your current JSON, and then press the option \'Build from Current JSON\'<\\/i><br>\\".$thumbInfo.\\"<\\/body><\\/html>\\";\\n    return $output;\\n  } \\n  else {\\n    echo \\"<br><br><br>No valid files (jpg,png,gif) in <b>\\" . $modx->getOption(\\"inputedPath\\", $scriptProperties) . \\"<\\/b>\\";\\n  }\\n} \\nelse {\\n  echo \\"<br><br><br>The folder  <b>\\" . $modx->getOption(\\"inputedPath\\", $scriptProperties) . \\"<\\/b> does not exist\\";\\n}\\necho \'<\\/body><\\/html>\';","locked":0,"properties":"a:0:{}","moduleguid":"","static":0,"static_file":"","content":"\\/*\\nTinyJSON Gallery Scanner Snippet for TinymceWrapper\\nhttp:\\/\\/www.leofec.com\\/modx-revolution\\/\\n-donshakespeare in the MODx forum\\nCopyright 2015\\n*\\/\\n$autoCreateThumb = $modx->getOption(\\"autoCreateThumb\\", $scriptProperties);\\n$justJSON = $modx->getOption(\\"justJSON\\", $scriptProperties);\\n$options = $modx->getOption(\\"options\\", $scriptProperties);\\n$partialOp = explode(\',\', $options);\\n$optionsArray = array();\\narray_walk($partialOp, function($val,$key) use(&$optionsArray){\\n  list($key, $value) = explode(\'=\', $val);\\n  $optionsArray[$key] = $value;\\n});\\n$options = $optionsArray;\\n\\/\\/get inputedPath plus base, whether user has autoCreateThumb on or not\\n$inputedFullPath = MODX_BASE_PATH . $modx->getOption(\\"inputedPath\\", $scriptProperties);\\n\\/\\/full url to full image\\n$largeUrl = MODX_BASE_URL . $modx->getOption(\\"inputedPath\\", $scriptProperties);\\n\\/\\/full path to thumb image if autoCreateThumb is on\\n$thumbPath = MODX_BASE_PATH . $modx->getOption(\\"inputedPath\\", $scriptProperties) . \\"thumb\\/\\";\\n\\/\\/full url to full image if autoCreateThumb is off, and user has own thumbs(must be child of parent folder :) )\\n$thumbParentUrl = dirname($largeUrl) . \\"\\/\\";\\n$thumbUrl = $thumbParentUrl . \\"thumb\\/\\";\\n$thumbInfo = \'\';\\necho \'<html><head><script>parent.loadingThrobber(0)<\\/script><\\/head><body style=\\"word-break: break-all;font-size: 14px;\\">\';\\nif ($autoCreateThumb == 1 && $options !== 0) {\\n  $thumbParentUrl = $largeUrl;\\n  $thumbUrl = $largeUrl . \\"thumb\\/\\";\\n  if ($justJSON == 0) {\\n    $thumbInfo = \'<br><b>THUMBNAILS<\\/b> <i>have been regenerated in thumb folder<\\/i>\';\\n  }\\n}\\n\\nif (file_exists($inputedFullPath)) {\\n  if ($autoCreateThumb && $justJSON == 0) {\\n    if (!file_exists($thumbPath)) {\\n      mkdir($thumbPath, 0777, true);\\n    }\\n    $checkResizer = MODX_CORE_PATH . \'components\\/resizer\\/model\\/\';\\n    if (file_exists($checkResizer)) {\\n      $modx->loadClass(\'Resizer\', MODX_CORE_PATH . \'components\\/resizer\\/model\\/\', true, true);\\n      $resizer = new Resizer($modx);\\n      $resizer->debug = true;\\n    }\\n    if(!$resizer){\\n      $thumbInfo = \'<br><b><a href=\\"https:\\/\\/modx.com\\/extras\\/package\\/resizer\\" target=\\"_blank\\">MODX Resizer<\\/a><\\/b> <i> is needed to create thumbnails<br>&justJSON was set to 0 - but no thumbs was created, only JSON<\\/i>\';\\n    }\\n  }\\n  $images = glob($inputedFullPath . \\"*.{jpg,png,gif}\\", GLOB_BRACE);\\n  if ($images) {\\n    $comma = \'\';\\n    $output = \\"<b>SCANNING:  <\\/b><i>\\" . $inputedFullPath . \\"<\\/i><br><br><div spellcheck=\'false\' contenteditable=\'true\' style=\'border:2px dotted red; height: 200px !important;font-size: 12px; overflow: auto;overflow-x: hidden\'>[\\";\\n    $output.= \'<b>{\\"Location\\": \\"\' . $modx->getOption(\\"inputedPath\\", $scriptProperties) . \'&autoCreateThumb=\'.$autoCreateThumb.\'&justJSON=\'.$justJSON.\'&options=\'.$modx->getOption(\\"options\\", $scriptProperties).\'\\"},<\\/b>\';\\n    $index = 0;\\n    foreach ($images as $image) {\\n      $index ++;\\n      $timeStamp = filemtime($image);\\n      $image = pathinfo($image);\\n      $file = $image[\\"filename\\"];\\n      $ext = $image[\\"extension\\"];\\n      $fileExt = $file . \\".\\" . $ext;\\n      $thumbSrc = $thumbUrl . $fileExt;\\n      $thumbParentUrlFname = $thumbParentUrl . $fileExt;\\n      if ($justJSON == 0 && $autoCreateThumb == 1 && $options !== 0) {\\n        if($resizer){\\n          $resizer->processImage($inputedFullPath . $fileExt, $thumbPath . $fileExt, $options);\\n        }\\n      }\\n      $cleanfile = preg_replace(\'\\/[^A-Za-z0-9\\\\-]\\/\', \' \', $file);\\n      $output.= $comma . \'{\\"name\\":\\"\' . $file.\'.\'.$ext . \'\\",\\"src\\":\\"\' . $thumbSrc . \'\\",\\"url\\":\\"\' . $thumbParentUrlFname . \'\\",\\"hidden\\":\\"0\\",\\"desc\\":\\"\' . $cleanfile . \'\\",\\"index\\":\\"\' . $index . \'\\",\\"time\\":\\"\' . $timeStamp . \'\\",\\"tag\\":\\"\\",\\"lerror\\":\\"0\\"}\';\\n      $comma = \',\';\\n    }\\n    $output.= \\"]<\\/div><br><b>COPY CODE ABOVE<\\/b> <i>and paste over your current JSON, and then press the option \'Build from Current JSON\'<\\/i><br>\\".$thumbInfo.\\"<\\/body><\\/html>\\";\\n    return $output;\\n  } \\n  else {\\n    echo \\"<br><br><br>No valid files (jpg,png,gif) in <b>\\" . $modx->getOption(\\"inputedPath\\", $scriptProperties) . \\"<\\/b>\\";\\n  }\\n} \\nelse {\\n  echo \\"<br><br><br>The folder  <b>\\" . $modx->getOption(\\"inputedPath\\", $scriptProperties) . \\"<\\/b> does not exist\\";\\n}\\necho \'<\\/body><\\/html>\';"}',
+        'guid' => '0eb29865301f83298b19ab7ce5d02462',
+        'native_key' => 2,
+        'signature' => 'e55a64ee6f35c3b002520558932fbdae',
+      ),
+    ),
+    'TemplateVars' => 
+    array (
+      '3feb0198ea147a8f2e4011310f17258f' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modTemplateVar',
+        'object' => '{"id":1,"source":0,"property_preprocess":0,"type":"textarea","name":"TinyJSONGalleryTV","caption":"TinyJSONGalleryTV","description":"Transform TV to dazzling gallery album. This TV must be plain textarea (input type). Go to TinymceWrapper Plugin to customize this Gallery addon.","editor_type":0,"category":0,"locked":0,"elements":"","rank":5,"display":"default","default_text":"[{\\"Location\\": \\"assets\\/components\\/tinymcewrapper\\/gallery\\/stockImages\\/nature\\/&autoCreateThumb=1&justJSON=1&options=w=178,h=117,zc=t\\"}]","properties":"a:0:{}","input_properties":"a:3:{s:10:\\"allowBlank\\";s:4:\\"true\\";s:9:\\"maxLength\\";s:0:\\"\\";s:9:\\"minLength\\";s:0:\\"\\";}","output_properties":"a:0:{}","static":0,"static_file":"","content":"[{\\"Location\\": \\"assets\\/components\\/tinymcewrapper\\/gallery\\/stockImages\\/nature\\/&autoCreateThumb=1&justJSON=1&options=w=178,h=117,zc=t\\"}]"}',
+        'guid' => '7a6cc3fecd3c37c95749239cee6e9249',
+        'native_key' => 1,
+        'signature' => '1e1182b7eb77532b37554662477291b1',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'tinymcewrapper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b4fa1ac8614d1da2ee9aaa8a54c10767',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '751ceba4e2bec9c07cb578fcf9310f38',
+  'native_key' => 6,
+  'object' => '{"id":6,"parent":0,"category":"TinyJSONGallery","rank":0}',
+);

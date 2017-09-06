@@ -1,0 +1,17 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => true,
+  'namespace' => 'tinymcewrapper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '43f566c38d0af8f21e78e9f4e994cffd',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '6b427d9b38ac97ae1f99d1bb25afad70',
+  'native_key' => 12,
+  'object' => '{"id":12,"parent":0,"category":"npCustomFormTpl","rank":0}',
+);

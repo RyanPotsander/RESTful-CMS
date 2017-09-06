@@ -1,0 +1,17 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => true,
+  'namespace' => 'tinymcewrapper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1625b3de211ac06505743bc1cf64836d',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '5e0d643b24b04837f86e1ef68ea14fc7',
+  'native_key' => 8,
+  'object' => '{"id":8,"parent":0,"category":"TinyMCE","rank":0}',
+);

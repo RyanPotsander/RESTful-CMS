@@ -1,0 +1,26 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'pagetitle',
+  'related_objects' => true,
+  'related_object_attributes' => 
+  array (
+    'ContentType' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'tinymcewrapper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8a3caadba07740b102835299c0a469b6',
+  'package' => 'modx',
+  'class' => 'modResource',
+  'signature' => 'fcc6477eec4992bd15cab29643636d24',
+  'native_key' => 3,
+  'object' => '{"id":3,"type":"document","contentType":"text\\/html","pagetitle":"tw_magic_create_page","longtitle":"","description":"Use this to control TinyMCE in your NewsPublisher using TinyMagicPublisher. Pure magic!","alias":"tw-magic-create-page","link_attributes":"","published":0,"pub_date":0,"unpub_date":0,"parent":0,"isfolder":0,"introtext":"Article Summary","content":"<p>Article Main Body<\\/p>","richtext":1,"template":0,"menuindex":1,"searchable":1,"cacheable":0,"createdby":1,"createdon":0,"editedby":1,"editedon":0,"deleted":0,"deletedon":0,"deletedby":0,"publishedon":0,"publishedby":0,"menutitle":"","donthit":0,"privateweb":0,"privatemgr":0,"content_dispo":0,"hidemenu":0,"class_key":"modDocument","context_key":"web","content_type":1,"uri":null,"uri_override":0,"hide_children_in_tree":0,"show_in_tree":1,"properties":null}',
+);

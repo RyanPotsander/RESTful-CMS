@@ -1,0 +1,26 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'pagetitle',
+  'related_objects' => true,
+  'related_object_attributes' => 
+  array (
+    'ContentType' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'tinymcewrapper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1699e03d589373da48092748d9ce55a7',
+  'package' => 'modx',
+  'class' => 'modResource',
+  'signature' => '01cece015dc8003d2ab20c91733c2d5d',
+  'native_key' => 4,
+  'object' => '{"id":4,"type":"document","contentType":"text\\/html","pagetitle":"tw_traditional_create_page","longtitle":"","description":"Use this to control TinyMCE in your NewsPublisher, the traditional way. No contenteditables, no magic!","alias":"tw-traditional-create-page","link_attributes":"","published":0,"pub_date":0,"unpub_date":0,"parent":0,"isfolder":1,"introtext":"Article Summary","content":"<!DOCTYPE html>\\r\\n<html lang=\\"en\\">\\r\\n<head>\\r\\n <meta charset=\\"UTF-8\\">\\r\\n <title>[[++site_name]] - [[*pagetitle]]<\\/title>\\r\\n <base href=\\"[[++site_url]]\\" \\/>\\r\\n<\\/head>\\r\\n<body>\\r\\n<a style=\\"display:block; text-align:center;position: absolute;width: 100%;top: 28px;text-decoration: none;font-size: 20px;\\" href=\\"javascript:;\\" onclick=\\"popGal(\'np-TinyJSONGalleryTV\', \'My Nature Gallery\', \'\', \'\', 1)\\">CLICK TO OPEN GALLERY MANAGER<\\/a>\\r\\n[[!TinyMagicPublisher?\\r\\n&npPureMagicNonTraditional=`0`\\r\\n&npTraditionalTinyChunk=`TinymceWrapperNPtraditional`\\r\\n&usetabs=`0`\\r\\n&tabs=`{\\r\\n    \\"Main\\" :    [\\"pagetitle\\",\\"introtext\\",\\"content\\"],\\r\\n    \\"Dates\\" :   [\\"pub_date\\", \\"unpub_date\\"],\\r\\n    \\"Publish\\" : [\\"publish\\"]\\r\\n}`\\r\\n&cssfile=``\\r\\n&tinymceCDN=`\\/\\/cdn.tinymce.com\\/4\\/tinymce.min.js`\\r\\n&autoFileBrowser=`responsivefilemanagerBrowser`\\r\\n&elFinderBrowserRTEurl=`[[~[[TinymceWrapperGRF? &knownField=pagetitle &kF=pagetitle &kFv=tw_elfinder_browser &gNuFv=id]]? &scheme=full &rememberLastDir=1 &defaultView=icons &unlocked=1]]`\\r\\n&responsivefilemanagerBrowserRTEurl=`[[++assets_url]]components\\/tinymcewrapper\\/responsivefilemanager\\/filemanager\\/dialog.php?type=1`\\r\\n&responsivefilemanagerBrowserRTEtitle=`Responsive FileManager`\\r\\n&roxyFilemanBrowserRTEtitle=`Roxy Fileman`\\r\\n&roxyFilemanBrowserRTEurl=`[[++assets_url]]components\\/tinymcewrapper\\/fileman\\/roxy.php`\\r\\n&parentid=`[[!TinymceWrapperGRF? &knownField=pagetitle &kF=pagetitle &kFv=TinymceWrapper &gNuFv=id]]`\\r\\n&templateid=`tw_ImogenTheme`\\r\\n&show=`pagetitle,introtext,content,TinymceWrapperServiceTV1,TinymceWrapperServiceTV2,TinymceWrapperServiceTV3,TinymceWrapperServiceTV4,TinymceWrapperCategoryTV1,TinymceWrapperCategoryTV2,TinymceWrapperCategoryTV3,TinymceWrapperCategoryTV4,TinymceWrapperCategoryTV5,TinymceWrapperCategoryTV6,TinymceWrapperImageTV1,TinymceWrapperImageTV2,TinymceWrapperImageTV3,TinymceWrapperImageTV4,TinymceWrapperImageTV5,TinymceWrapperImageTV6,TinymceWrapperMiscTV1,TinymceWrapperMiscTV2,TinyJSONGalleryTV,longtitle,hidemenu,published,description,menutitle,pub_date,unpub_date,parent`\\r\\n&required=`pagetitle,content`\\r\\n&initdatepicker=`1`\\r\\n&filetpl=`twBROWSERnpFileTpl`\\r\\n&imagetpl=`twBROWSERnpImageTpl`\\r\\n&deletebutton=`1`\\r\\n&duplicatebutton=`1`\\r\\n&confirmdelete=`1`\\r\\n&modxGalleryAssetsUrl =`[[++assets_url]]`\\r\\n&TinyJSONGalleryJS = `[[++assets_url]]components\\/tinymcewrapper\\/gallery\\/js\\/TinyJSONGallery.js`\\r\\n&galleryBackUpRTEskin = `[[++assets_url]]\\/components\\/tinymcewrapper\\/tinymceskins\\/modxPericles`\\r\\n]]\\r\\n<\\/body>\\r\\n<\\/html>","richtext":0,"template":0,"menuindex":2,"searchable":1,"cacheable":0,"createdby":1,"createdon":0,"editedby":1,"editedon":0,"deleted":0,"deletedon":0,"deletedby":0,"publishedon":0,"publishedby":0,"menutitle":"","donthit":0,"privateweb":0,"privatemgr":0,"content_dispo":0,"hidemenu":0,"class_key":"modDocument","context_key":"web","content_type":1,"uri":null,"uri_override":0,"hide_children_in_tree":0,"show_in_tree":1,"properties":null}',
+);

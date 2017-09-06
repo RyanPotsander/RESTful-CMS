@@ -1,0 +1,50 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Action' => 
+    array (
+      '7d25efa9790550788d66a4550ac4fa71' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'namespace',
+          1 => 'controller',
+        ),
+        'class' => 'modAction',
+        'object' => '{"id":1,"namespace":"bigbrother","controller":"index","haslayout":1,"lang_topics":"bigbrother:mgr","assets":"","help_url":"","parent":0}',
+        'guid' => 'a32b2567a7b56a5eb114f9dc429d27d8',
+        'native_key' => 1,
+        'signature' => '749940493c04c5a2a6e4f64442d10701',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'bigbrother',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a1fcf17e72cff7a3e9a9372dc86da510',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '55329d352669b5dd214a15c040a31e9d',
+  'native_key' => 'bigbrother',
+  'object' => '{"text":"bigbrother","parent":"components","action":1,"description":"bigbrother.menu_desc","icon":"images\\/icons\\/plugin.gif","menuindex":0,"params":"","handler":"","permissions":"","namespace":"core"}',
+);

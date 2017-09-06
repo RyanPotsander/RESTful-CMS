@@ -1,0 +1,13 @@
+tinymce.init({
+  selector: "#ta",
+  [[+commonTinyMCECode]]
+  statusbar: true,
+  plugins: "imagetools,autoresize,preview,paste,contextmenu,image,wordcount,fullscreen,code,charmap,searchreplace,textpattern,emoticons,insertdatetime",
+  //paste_word_valid_elements: "a,div,b,strong,i,em,h1,h2,h3,p,blockquote,ol,ul,pre",
+  //valid_elements: "iframe[*],object[*],audio[*],-span,a[href|target|class|rel|title|onclick],-strong,-b,-p[class<text-align-left?text-align-center?text-align-right],br,-h1,-h2,-h3,-figure,-figcaption,-img[!src|!alt],em,-blockquote,pre[class],-ol,-ul,-li,-code,hr[*]",
+  //valid_children: "figure[img|figcaption],-li[ul],-li[ol],-li[div],-strong[*],-em[*],-h1[*],-h2[*],-h3[*],-a[strong|em|h1|h2|h3|p|div],blockquote[p|ol|ul],pre[code],div[pre]",
+  resize: true,
+  autoresize_min_height: 100,
+  toolbar: "preview fullscreen | twPreCodeManager code | undo redo | newdocument |  blockquote | bold italic aligncenter | bullist numlist | link unlink | image | styleselect charmap emoticons insertdatetime searchreplace bubbleBarOptionsButton",
+  contextmenu: "code | twPreCodeManager | fullscreen | removeformat | link | image"
+});

@@ -1,0 +1,34 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => false,
+  'namespace' => 'bigbrother',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"bigbrother-1.3.1-pl\\/modCategory\\/4aa46c88ae3afd1cb2f8a2e0cf58fff6\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"bigbrother"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"bigbrother-1.3.1-pl\\/modCategory\\/4aa46c88ae3afd1cb2f8a2e0cf58fff6\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"bigbrother"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"bigbrother-1.3.1-pl\\/modCategory\\/4aa46c88ae3afd1cb2f8a2e0cf58fff6.setupoptions.resolver.resolver","type":"php","name":"setupoptions.resolver"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'd54f3a68dea9a9270b0771e8d5c5ebe9',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '4aa46c88ae3afd1cb2f8a2e0cf58fff6',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"BigBrother","rank":0}',
+);

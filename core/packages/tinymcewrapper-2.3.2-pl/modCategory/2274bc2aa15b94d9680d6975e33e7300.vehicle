@@ -1,0 +1,91 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Snippets' => 
+    array (
+      '314fd04f78ca92fb8d755bb326836569' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":1,"source":0,"property_preprocess":0,"name":"TinymceWrapperGRF","description":"TinymceWrapper Plugin uses GetResourceField to grab the url of your elFinder resource. Since I don\'t know if you have friendly url on or not, I had no choice. Please replace this in your Plugin property, enter the url of your elFinder resource.","editor_type":0,"category":0,"cache_type":0,"snippet":"$resource = $modx->getObject(\'modResource\', array($kF =>$kFv));\\nif($resource){\\n\\t$output = $resource->get($gNuFv);\\nreturn $output;\\n\\t}","locked":0,"properties":"a:3:{s:5:\\"gNuFv\\";a:7:{s:4:\\"name\\";s:5:\\"gNuFv\\";s:4:\\"desc\\";s:23:\\"getNewUnknownFieldValue\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:0:\\"\\";}s:2:\\"kF\\";a:7:{s:4:\\"name\\";s:2:\\"kF\\";s:4:\\"desc\\";s:10:\\"knownField\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:0:\\"\\";}s:3:\\"kFv\\";a:7:{s:4:\\"name\\";s:3:\\"kFv\\";s:4:\\"desc\\";s:15:\\"knownFieldValue\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:0:\\"\\";}}","moduleguid":"","static":0,"static_file":"","content":"$resource = $modx->getObject(\'modResource\', array($kF =>$kFv));\\nif($resource){\\n\\t$output = $resource->get($gNuFv);\\nreturn $output;\\n\\t}"}',
+        'guid' => '7fdc1003f280ee45b0fcf3150ce860a2',
+        'native_key' => 1,
+        'signature' => '7ebf8dd14e5b066774f9ca1a810f0941',
+      ),
+      '97e791c06dbecc24b023167a86cadf0b' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":2,"source":0,"property_preprocess":0,"name":"TinymceWrapperGetUrlParam","description":"This extends your elFinder, gives you url parameter emperor status","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/**\\n *\\n * forked from getUrlParam by Paul Merchant\\n *\\n * A simple snippet to return a value passed through a URL parameter.\\n *\\n * OPTIONS\\n * name - The parameter name, defaults to p\\n * int - (Opt) Set as true to only allow integer values\\n * max - (Opt) The maximum length of the returned value, defaults to 20\\n * default - (Opt) The value returned if no URL parameter is found\\n *\\n * Example: [[TinymceWrapperGetUrlParam? &name=`pageid` &int=`1`]]\\n *\\n**\\/\\n\\n\\/\\/ set defaults\\n$name = $modx->getOption(\'name\',$scriptProperties,\'p\');\\n$int = $modx->getOption(\'int\',$scriptProperties,false);\\n$max = $modx->getOption(\'max\',$scriptProperties,20);\\n$output = $modx->getOption(\'default\',$scriptProperties,\'\');\\n\\n\\/\\/ get the sanitized value if there is one\\nif (isset($_GET[$name])) {\\n    if ($int) {\\n        $value = intval($_GET[$name]);\\n    } else {\\n        if (strlen($_GET[$name]) > $max) {\\n            $value = filter_var(substr($_GET[$name],0,$max), FILTER_SANITIZE_STRING);\\n        } else {\\n            $value = filter_var($_GET[$name], FILTER_SANITIZE_STRING);\\n        }\\n    }\\n\\n    $output = rawurldecode($value);\\n\\t\\tif($name == \'onlyMimes\'){\\n\\t\\t$output = \'[\\"\'.$output.\'\\"]\';\\n\\t}\\n\\t\\tif($name == \'user\'){\\n\\t\\t$output = \'?name=\'.$output;\\n\\t}\\n}\\n\\nreturn $output;","locked":0,"properties":"a:0:{}","moduleguid":"","static":0,"static_file":"","content":"\\/**\\n *\\n * forked from getUrlParam by Paul Merchant\\n *\\n * A simple snippet to return a value passed through a URL parameter.\\n *\\n * OPTIONS\\n * name - The parameter name, defaults to p\\n * int - (Opt) Set as true to only allow integer values\\n * max - (Opt) The maximum length of the returned value, defaults to 20\\n * default - (Opt) The value returned if no URL parameter is found\\n *\\n * Example: [[TinymceWrapperGetUrlParam? &name=`pageid` &int=`1`]]\\n *\\n**\\/\\n\\n\\/\\/ set defaults\\n$name = $modx->getOption(\'name\',$scriptProperties,\'p\');\\n$int = $modx->getOption(\'int\',$scriptProperties,false);\\n$max = $modx->getOption(\'max\',$scriptProperties,20);\\n$output = $modx->getOption(\'default\',$scriptProperties,\'\');\\n\\n\\/\\/ get the sanitized value if there is one\\nif (isset($_GET[$name])) {\\n    if ($int) {\\n        $value = intval($_GET[$name]);\\n    } else {\\n        if (strlen($_GET[$name]) > $max) {\\n            $value = filter_var(substr($_GET[$name],0,$max), FILTER_SANITIZE_STRING);\\n        } else {\\n            $value = filter_var($_GET[$name], FILTER_SANITIZE_STRING);\\n        }\\n    }\\n\\n    $output = rawurldecode($value);\\n\\t\\tif($name == \'onlyMimes\'){\\n\\t\\t$output = \'[\\"\'.$output.\'\\"]\';\\n\\t}\\n\\t\\tif($name == \'user\'){\\n\\t\\t$output = \'?name=\'.$output;\\n\\t}\\n}\\n\\nreturn $output;"}',
+        'guid' => 'fb55a7be2e8067045655f5b50e4593f0',
+        'native_key' => 2,
+        'signature' => 'add7527723d8b88362f8b7bb082f744a',
+      ),
+      '010c10ac662bf6d7b13d74b13e39d15f' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":3,"source":0,"property_preprocess":0,"name":"TinymceWrapperMarkdown","description":"Output modifier. It can also be used with other modifiers.\\n[[*content:TinymceWrapperMarkdown]] ... [[+placeholder:TinymceWrapperMarkdown]]\\nTinymceWrapperMarkdown = `markdownE` or `parsedown` default is parsedownE","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/*\\nby donshakespeare\\nTinymceWrapperMarkdown is an Output Modifier for MODX\\n[[*content:TinymceWrapperMarkdown=`markdown`]]\\nor `markdownE` or `parsedown`\\ndefault =`parsedownE`\\nparsedownE or markdownE is good for Markdown mixed with HTML, and Markdown enclosed in HTML markdown=\\"1\\"*\\/\\nif($input){\\n    $content = $input;\\n    \\/\\/ Parse MODX tags first || parse BBCodes here too\\n    $content = $modx->newObject(\'modChunk\')->process(null, $content);\\n    $options = explode(\',\',$options);\\n    if($options[0] == \\"markdown\\"){\\n        if (!class_exists(\'\\\\Michelf\\\\Markdown\')) {\\n            require MODX_ASSETS_PATH . \'components\\/tinymcewrapper\\/markdown\\/Michelf\\/Markdown.inc.php\';\\n        }\\n        $content = \\\\Michelf\\\\Markdown::defaultTransform($content);\\n    }\\n    elseif($options[0] == \\"markdownE\\"){\\n        if (!class_exists(\'\\\\Michelf\\\\MarkdownExtra\')) {\\n            require MODX_ASSETS_PATH . \'components\\/tinymcewrapper\\/markdown\\/Michelf\\/MarkdownExtra.inc.php\';\\n        }\\n        $content = \\\\Michelf\\\\MarkdownExtra::defaultTransform($content);\\n    }\\n    elseif($options[0] == \\"parsedown\\"){\\n        require MODX_ASSETS_PATH . \'components\\/tinymcewrapper\\/markdown\\/parsedown\\/Parsedown.php\';\\n        $Parsedown = new Parsedown();\\n        $content = $Parsedown->text($content);\\n    }\\n    else{ \\/\\/default state\\n        $options[0] = \\"parsedownExtra\\";\\n        require MODX_ASSETS_PATH . \'components\\/tinymcewrapper\\/markdown\\/parsedown\\/Parsedown.php\';\\n        require MODX_ASSETS_PATH . \'components\\/tinymcewrapper\\/markdown\\/parsedown\\/ParsedownExtra.php\';\\n        $ParsedownExtra = new ParsedownExtra();\\n        $content = $ParsedownExtra->text($content);\\n    }\\n    if(isset($options[1])){\\n        $squareBracketSeparator = substr($options[1], 0, 1);\\n        $content = str_replace(\'[\'.$squareBracketSeparator.\'[\', \'&#91;&#91;\', $content); \\/\\/ do some more find\\/replace\\n    }\\n    return $content);\\n}","locked":0,"properties":"a:0:{}","moduleguid":"","static":0,"static_file":"","content":"\\/*\\nby donshakespeare\\nTinymceWrapperMarkdown is an Output Modifier for MODX\\n[[*content:TinymceWrapperMarkdown=`markdown`]]\\nor `markdownE` or `parsedown`\\ndefault =`parsedownE`\\nparsedownE or markdownE is good for Markdown mixed with HTML, and Markdown enclosed in HTML markdown=\\"1\\"*\\/\\nif($input){\\n    $content = $input;\\n    \\/\\/ Parse MODX tags first || parse BBCodes here too\\n    $content = $modx->newObject(\'modChunk\')->process(null, $content);\\n    $options = explode(\',\',$options);\\n    if($options[0] == \\"markdown\\"){\\n        if (!class_exists(\'\\\\Michelf\\\\Markdown\')) {\\n            require MODX_ASSETS_PATH . \'components\\/tinymcewrapper\\/markdown\\/Michelf\\/Markdown.inc.php\';\\n        }\\n        $content = \\\\Michelf\\\\Markdown::defaultTransform($content);\\n    }\\n    elseif($options[0] == \\"markdownE\\"){\\n        if (!class_exists(\'\\\\Michelf\\\\MarkdownExtra\')) {\\n            require MODX_ASSETS_PATH . \'components\\/tinymcewrapper\\/markdown\\/Michelf\\/MarkdownExtra.inc.php\';\\n        }\\n        $content = \\\\Michelf\\\\MarkdownExtra::defaultTransform($content);\\n    }\\n    elseif($options[0] == \\"parsedown\\"){\\n        require MODX_ASSETS_PATH . \'components\\/tinymcewrapper\\/markdown\\/parsedown\\/Parsedown.php\';\\n        $Parsedown = new Parsedown();\\n        $content = $Parsedown->text($content);\\n    }\\n    else{ \\/\\/default state\\n        $options[0] = \\"parsedownExtra\\";\\n        require MODX_ASSETS_PATH . \'components\\/tinymcewrapper\\/markdown\\/parsedown\\/Parsedown.php\';\\n        require MODX_ASSETS_PATH . \'components\\/tinymcewrapper\\/markdown\\/parsedown\\/ParsedownExtra.php\';\\n        $ParsedownExtra = new ParsedownExtra();\\n        $content = $ParsedownExtra->text($content);\\n    }\\n    if(isset($options[1])){\\n        $squareBracketSeparator = substr($options[1], 0, 1);\\n        $content = str_replace(\'[\'.$squareBracketSeparator.\'[\', \'&#91;&#91;\', $content); \\/\\/ do some more find\\/replace\\n    }\\n    return $content);\\n}"}',
+        'guid' => 'bef30f6375cde30919a2e5dd8f928d02',
+        'native_key' => 3,
+        'signature' => '93ff21d879a9a4e7f253bd1bc1c52fc9',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'tinymcewrapper',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"tinymcewrapper-2.3.2-pl\\/modCategory\\/2274bc2aa15b94d9680d6975e33e7300.category.resolver.resolver","type":"php","name":"category.resolver"}',
+    ),
+    1 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"tinymcewrapper-2.3.2-pl\\/modCategory\\/2274bc2aa15b94d9680d6975e33e7300.plugin.resolver.resolver","type":"php","name":"plugin.resolver"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"tinymcewrapper-2.3.2-pl\\/modCategory\\/2274bc2aa15b94d9680d6975e33e7300.tv.resolver.resolver","type":"php","name":"tv.resolver"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"tinymcewrapper-2.3.2-pl\\/modCategory\\/2274bc2aa15b94d9680d6975e33e7300.resource.resolver.resolver","type":"php","name":"resource.resolver"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"tinymcewrapper-2.3.2-pl\\/modCategory\\/2274bc2aa15b94d9680d6975e33e7300.tinymcewrapper.resolver.resolver","type":"php","name":"tinymcewrapper.resolver"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e84cf284f0474ae4beef72273a9a1cbc',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '2274bc2aa15b94d9680d6975e33e7300',
+  'native_key' => 13,
+  'object' => '{"id":13,"parent":0,"category":"TinyUtilities","rank":0}',
+);
